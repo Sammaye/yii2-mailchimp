@@ -3,7 +3,7 @@ yii2-mailchimp
 
 Yii2 MailChimp extension.
 
-This is the most dirt simple extension you could ever imaigne, literally this is how you use it:
+This is the most dirt simple extension you could ever imagine, literally this is how you use it:
 
     $mc = new sammaye\mailchimp\Mailchimp(['apikey' => 'lalala']);
     $mc->lists->getList();
