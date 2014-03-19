@@ -1,13 +1,13 @@
 {
-    name: "sammaye/yii2-mailchimp",
-    description: "MailChimp plugin for the Yii2 framework",
-    type: "yii2-extension",
-    keywords: ["sammaye", "yii2", "extension", "yii2-extension", "Yii2 Extension", "MailChimp", "mailchimp"],
-    license: "BSD-3-Clause",
-    authors: [
+    "name": "sammaye/yii2-mailchimp",
+    "description": "MailChimp plugin for the Yii2 framework",
+    "type": "yii2-extension",
+    "keywords": ["sammaye", "yii2", "extension", "yii2-extension", "Yii2 Extension", "MailChimp", "mailchimp"],
+    "license": "BSD-3-Clause",
+    "authors": [
         {
-            name: "Sammaye",
-            homepage: "http://sammaye.wordpress.com"
+            "name": "Sammaye",
+            "homepage": "http://sammaye.wordpress.com"
         }
     ],
     "require": {
