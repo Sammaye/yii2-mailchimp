@@ -26,6 +26,15 @@ class Mailchimp extends Component
 		$this->mailChimp = new MailchimpApi($this->apikey, $this->opts);
 	}
 	
+	public function __get($name)
+	{
+		try{
+			parent::__get($name);
+		}catch(\yii\base\UnknownPropertyException $e){
+			return $this->mailChimp->$name;
+		}
+	}
+	
 	public function __call($name, $parameters = [])
 	{
 		return call_user_func_array([$this->mailChimp, $name], $parameters);
